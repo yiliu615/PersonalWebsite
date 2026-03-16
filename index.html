@@ -3,70 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yi Liu | Personal Website</title>
+    <title>Yi Liu | Biostatistics Research</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <div class="hero-photo-wrap">
-        <img src="assets/yi-liu.jpg" alt="Portrait of Yi Liu" class="hero-photo" />
-      </div>
-      <div class="hero-content">
-        <h1>Yi Liu</h1>
-        <p class="subtitle">Ph.D. Candidate in Biostatistics, Emory University</p>
-        <p>
-          I am a biostatistics researcher focusing on survival and longitudinal data analysis,
-          latent variable methods, frailty models, clinical trials, and quantile regression.
-          My work combines methodological development with clinical collaborations in oncology
-          and related biomedical studies.
-        </p>
-        <div class="links">
-          <a href="mailto:yi.liu@emory.edu">Email</a>
-          <a href="https://scholar.google.com/citations?user=tV492EAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-          <a href="YiLiuCV__2025.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
-        </div>
+    <header class="site-header">
+      <div class="nav-shell">
+        <div class="brand">Yi Liu</div>
+        <nav class="tabs" aria-label="Main navigation">
+          <a class="active" href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks</a>
+        </nav>
       </div>
     </header>
 
     <main>
-      <nav class="tabs" aria-label="Sections">
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks &amp; Abstracts</a>
-        <a href="#awards">Awards</a>
-      </nav>
-
-      <section id="publications" class="card">
-        <h2>Publications</h2>
-        <ol>
-          <li><strong>Yi Liu</strong>, Umpierrez, G. E., &amp; Peng, L. (2025). Exploring the heterogeneity in recurrent episode lengths based on quantile regression. <em>Biometrics</em>, 81(3), ujaf122.</li>
-          <li><strong>Yi Liu</strong>, Hanfelt, J., &amp; Peng, L. (2025+). Hierarchical latent-variable modeling of multivariate clinical outcomes. <em>In preparation</em>.</li>
-          <li><strong>Yi Liu</strong>, Lee, J., &amp; Chen, J. (2025+). Evaluation of active learning in electronic health records phenotyping. <em>Submitted</em>.</li>
-          <li>McCarthy, A. M., <strong>Yi Liu</strong>, Ehsan, S., et al. (2021). Validation of breast cancer risk models by race/ethnicity, family history and molecular subtypes. <em>Cancers</em>, 14(1), 45.</li>
-          <li>Nguyen, T. T. A., Zhang, J., Iqbal, J., Ahmed, S. S., <strong>Yi Liu</strong>, Yang, L., et al. (2025). Proposing new criteria for classification of benign fibroepithelial lesions based on clinicopathologic evaluations. <em>Modern Pathology</em>, 38(10), 100812.</li>
-          <li>Li, X., Nguyen, T. T. A., Zhang, J., Nayak, A., <strong>Yi Liu</strong>, et al. (2024). Validation study of newly proposed refined diagnostic criteria for malignant phyllodes tumor. <em>The American Journal of Surgical Pathology</em>, 48(9), 1146–1153.</li>
-          <li>Schwieger, L., Postlewait, L. M., <strong>Yi Liu</strong>, Jou, S., Yi, S., Peng, L., &amp; Li, X. (2024). Changes in expression of breast cancer tumor biomarkers between primary tumors and corresponding metastatic sites. <em>Breast Cancer Research and Treatment</em>, 207(2), 373–382.</li>
-          <li>Turashvili, G., Ding, Q., <strong>Yi Liu</strong>, Peng, L., et al. (2023). Comprehensive clinical-pathologic assessment of malignant phyllodes tumors: Proposing refined diagnostic criteria. <em>The American Journal of Surgical Pathology</em>, 47(11), 1195–1206.</li>
-        </ol>
+      <section class="section-block section-light intro">
+        <div class="content-wrap intro-grid">
+          <img src="assets/yi-liu.svg" alt="Portrait illustration of Yi Liu" class="hero-photo" />
+          <div>
+            <h1>Yi Liu</h1>
+            <p class="subtitle">Ph.D. Candidate in Biostatistics, Emory University</p>
+            <p>
+              I am currently a Ph.D. candidate in Biostatistics at Emory University, advised by
+              Dr. Limin Peng. My current research focuses on survival and longitudinal data
+              analysis, with active work in quantile regression, frailty modeling, and clinical
+              trial methodology.
+            </p>
+            <p>
+              I am also an incoming postdoctoral researcher (Fall 2026) and interested in exploring
+              reinforcement learning for dynamic treatment regimes and AI-driven methods in
+              medicine.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="mailto:yi.liu@emory.edu">Contact</a>
+              <a class="button" href="https://scholar.google.com/citations?user=tV492EAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section id="talks" class="card">
-        <h2>Talks &amp; Abstracts</h2>
-        <ol>
-          <li>“Exploring the Heterogeneity in Recurrent Episode Lengths Based On Quantile Regression,” Joint Statistical Meeting 2025, Nashville, Tennessee (08/2025).</li>
-          <li>“Exploring the Heterogeneity in Recurrent Episode Lengths Based On Quantile Regression,” ENAR 2025 Spring Meeting, New Orleans, Louisiana (03/2025).</li>
-          <li>“High Tumor Infiltrating Lymphocytes Are Significantly Associated with Increased Pathological Complete Response Rate...,” USCAP 114th Annual Meeting, Boston, Massachusetts (03/2025).</li>
-          <li>“Clinicopathologic Evaluations of 500 Cellular Fibroadenoma, Benign and Borderline Phyllodes Tumors...,” USCAP 114th Annual Meeting, Boston, Massachusetts (03/2025).</li>
-          <li>“Flexible Regression Analysis of Recurrent Episode Length Data,” Joint Statistical Meeting 2024, Portland, Oregon (08/2024).</li>
-          <li>“Serous Carcinoma-Like Carcinoma of the Breast, a Possible Underrecognized New Entity?,” USCAP 113th Annual Meeting, Baltimore, Maryland (03/2024).</li>
-        </ol>
+      <section class="section-block section-gray">
+        <div class="content-wrap">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>Ph.D. in Biostatistics</strong>, Emory University (anticipated 2026). Advisor: Dr. Limin Peng.</li>
+            <li><strong>M.S. in Biostatistics</strong>, University of Pennsylvania (2021). Advisor: Dr. Jinbo Chen.</li>
+            <li><strong>B.S. in Statistics</strong>, Nankai University (2019).</li>
+          </ul>
+        </div>
       </section>
 
-      <section id="awards" class="card">
-        <h2>Awards</h2>
-        <ul>
-          <li>International Biometric Society ENAR Distinguished Student Paper Award.</li>
-          <li>Joint Statistical Meetings (JSM) Student Paper Award, Life Data Science Section.</li>
-        </ul>
+      <section class="section-block section-light">
+        <div class="content-wrap">
+          <h2>Experience (Internship)</h2>
+          <ul>
+            <li><strong>Statistics Summer Intern, Pfizer</strong> (Jun 2025 – Aug 2025).</li>
+            <li>Developed a causal machine learning framework for treatment-switching adjustment in clinical trials.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-block section-gray">
+        <div class="content-wrap">
+          <h2>Awards</h2>
+          <ul>
+            <li>International Biometric Society ENAR Distinguished Student Paper Award.</li>
+            <li>Joint Statistical Meetings (JSM) Student Paper Award, Life Data Science Section.</li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
