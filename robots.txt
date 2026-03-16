@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gyang-eng.github.io/PersonalWebsite/sitemap.xml
